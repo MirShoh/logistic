@@ -51,6 +51,7 @@
  }
  
  details summary{
+    color: white;
     outline: none;
     background-color: #FF3E41;
     border-radius: 3px;
