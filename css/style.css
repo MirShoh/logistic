@@ -468,9 +468,9 @@
         padding-top: 180px;
     }
     .comment_user img {
-    width: 60px!important;
-    top: 60px!important;
-    right: 20px!important;
+        width: 55px!important;
+        top: -7px!important;
+        right: 130px!important;
     }
 
     div#one {
@@ -543,10 +543,11 @@
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
     .comment_user img {
-        width: 70px!important;
-        top: -5px!important;
-        right: 85px!important;
+        width: 55px!important;
+    top: -7px!important;
+    right: 130px!important;
         }
+
     .comment_user img.review {
         width: 80px!important;
         top: 15px!important;
