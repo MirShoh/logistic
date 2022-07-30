@@ -473,6 +473,12 @@
         right: 130px!important;
     }
 
+    .comment_user img.review {
+        width: 58px!important;
+        top: 5px!important;
+        right: 130px!important;
+        }
+
     div#one {
         /* background-image: url(../img/mobile1.jpg); */
         background-position: center;
