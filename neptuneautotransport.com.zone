@@ -1,0 +1,34 @@
+; A BIND file is a .TXT file that's used to export
+; DNS records from one domain to another. BIND
+; files are commonly used by lots of domain
+; registrars, so they're a good choice if
+; you're exporting resource records to a domain
+; that's managed by a different registrar.
+
+em4834.neptuneautotransport.com. 3600 IN CNAME u25620944.wl195.sendgrid.net.
+mp._domainkey.neptuneautotransport.com. 3600 IN CNAME mp.domainkey.u25620944.wl195.sendgrid.net.
+mp2._domainkey.neptuneautotransport.com. 3600 IN CNAME mp2.domainkey.u25620944.wl195.sendgrid.net.
+neptuneautotransport.com. 3600 IN MX 1 aspmx.l.google.com.
+neptuneautotransport.com. 3600 IN MX 5 alt1.aspmx.l.google.com.
+neptuneautotransport.com. 3600 IN MX 5 alt2.aspmx.l.google.com.
+neptuneautotransport.com. 3600 IN MX 10 alt3.aspmx.l.google.com.
+neptuneautotransport.com. 3600 IN MX 10 alt4.aspmx.l.google.com.
+neptuneautotransport.com. 3600 IN SPF "v=spf1 include:_spf.google.com ~all"
+neptuneautotransport.com. 3600 IN TXT "v=spf1 include:_spf.google.com ~all"
+google._domainkey.neptuneautotransport.com. 3600 IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlhT6PB0YptqiaqLvIfXnafC6lJYa8r3CqleWJu+trQ8JWmBCV2s97srXHcAdE7c7Oa/PD0TiBFU3Hn7+RynjwsaMVU/ZujQp5eKn2YX2crT2d9rjorRZlsOoSNIcWAi+u6mND3IjpIirmJss/M6UPcqMS4X0rMP5S6aOCa8zubXBxGP3gJQD0aampnbAod3S7" "pxYl96rEzMRjeT6u+hdqBuirTEZHWB0XzHFnUavHCuwv4IMTDnI8AQLY6qH+T4OHL1VR69/lFVVnYPlYRp3RNXvGNhu68KuQM30KYdioWc9R6vO6Nc9ZmLAQ9KgCAp9r1SzSuDGcNFWd+SPP+k+awIDAQAB"
+neptuneautotransport.com. 3600 IN A 216.239.32.21
+neptuneautotransport.com. 3600 IN A 216.239.34.21
+neptuneautotransport.com. 3600 IN A 216.239.36.21
+neptuneautotransport.com. 3600 IN A 216.239.38.21
+neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:32::15
+neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:34::15
+neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:36::15
+neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:38::15
+www.neptuneautotransport.com. 3600 IN A 216.239.32.21
+www.neptuneautotransport.com. 3600 IN A 216.239.34.21
+www.neptuneautotransport.com. 3600 IN A 216.239.36.21
+www.neptuneautotransport.com. 3600 IN A 216.239.38.21
+www.neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:32::15
+www.neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:34::15
+www.neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:36::15
+www.neptuneautotransport.com. 3600 IN AAAA 2001:4860:4802:38::15
